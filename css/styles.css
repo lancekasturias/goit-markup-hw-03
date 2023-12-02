@@ -9,6 +9,25 @@
   --Cloud: #f4f4fd;
 }
 
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .list {
   list-style: none;
 }
@@ -30,6 +49,8 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--Navy-blue);
+  padding: 24px 0;
+  gap: 40px;
 }
 
 body {
@@ -84,6 +105,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--Iris);
+  margin-right: 76px;
 }
 
 .spanlogo {
@@ -110,7 +132,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.header {
+.hero-header {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;

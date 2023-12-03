@@ -22,7 +22,7 @@
 
 .nav-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .nav,
@@ -162,6 +162,11 @@ body {
   margin: 0 auto 48px;
 }
 
+.list-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .section-header {
   font-size: 20px;
   line-height: 1.2;
@@ -170,19 +175,6 @@ body {
   font-weight: 500;
 }
 
-.list-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.sectionthree-header {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--Navy-blue);
-}
 /* section two */
 
 .section-two {
@@ -213,7 +205,24 @@ body {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-section- {
+/*section three*/
+.section-three {
+  padding-bottom: 120px;
+}
+
+.sectionthree-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--Navy-blue);
+  margin-bottom: 72px;
+}
+
+.service {
+  display: flex;
+  gap: 24px;
 }
 /*section four*/
 

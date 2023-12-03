@@ -12,6 +12,7 @@
   --Ocean: #404bbf;
   --Iris: #4d5ae5;
   --Cloud: #f4f4fd;
+  --Cornflower: #e7e9fc;
 }
 
 .container {
@@ -117,7 +118,7 @@ body {
   letter-spacing: 0.02em;
   font-family: "Roboto", sans-serif;
   background-color: var(--Navy-blue);
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .footer-link {
@@ -282,7 +283,11 @@ img {
 }
 
 /*Portfolio*/
-
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
 .btn-item {
   font-family: var(--Roboto);
   font-weight: 500;
@@ -292,10 +297,19 @@ img {
   color: var(--Iris);
   background-color: var(--Cloud);
   cursor: pointer;
+  border: 1px solid var(--Cornflower);
+  margin-bottom: 72px;
+  padding: 12px 24px;
+  border-radius: 4px;
 }
 
 .btn-item:focus,
 .btn-item:hover {
   color: var(--White);
   background-color: var(--Ocean);
+  border: 1px solid transparent;
+}
+
+.main-portfolio {
+  padding: 96px 0 120px 0;
 }

@@ -206,9 +206,14 @@ body {
   gap: 24px;
 }
 
+.section-two-header {
+  margin-bottom: 8px;
+}
 .list-calc {
   flex-basis: calc((100% - 72px) / 4);
-  margin-bottom: 8px;
+}
+
+section- {
 }
 /*section four*/
 

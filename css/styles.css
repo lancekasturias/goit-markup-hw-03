@@ -325,4 +325,5 @@ img {
   padding: 32px 16px;
   border: 1px solid var(--Cornflower);
   border-top: none;
+  margin-bottom: 8px;
 }

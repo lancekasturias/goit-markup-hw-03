@@ -234,6 +234,7 @@ body {
   color: var(--Navy-blue);
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .sectionfour-text {
@@ -241,16 +242,32 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--Slate);
+  text-align: center;
 }
 
 .sectionfour-list {
   background-color: var(--White);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .section-four {
   background-color: var(--Cloud);
+  padding: 120px 0;
 }
 
+.section-four-name {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.team {
+  display: flex;
+  gap: 24px;
+}
+
+.member-info {
+  padding: 32px;
+}
 /*img block*/
 
 img {

@@ -181,6 +181,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--Navy-blue);
   font-weight: 500;
+  margin-bottom: 8px;
 }
 
 /* section two */

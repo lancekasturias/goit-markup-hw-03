@@ -117,10 +117,17 @@ body {
   letter-spacing: 0.02em;
   font-family: "Roboto", sans-serif;
   background-color: var(--Navy-blue);
+  padding: 100px;
+}
+
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footerp {
   color: var(--Cloud);
+  max-width: 264px;
 }
 
 /* section one */
@@ -266,7 +273,7 @@ body {
 }
 
 .member-info {
-  padding: 32px;
+  padding: 32px 0;
 }
 /*img block*/
 
